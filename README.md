@@ -49,7 +49,7 @@ public class MyActivity extends BaseActivity {
     private TextView tvContent;
     private long mID;
     private Context mContext;
-
+	// VIEW HOLDER NEED CONTEXT TO START OTHER ACTIVITIES ON CLICK
     public MyViewHolder(View itemView, Context context) {
         super(itemView);
         mContext = context;
