@@ -66,7 +66,7 @@ public class MyActivity extends BaseActivity {
     }
 
 	// As a bonus View Holder may be used as an item event listener.
-	// Here we implement onClick listener, that start an activty
+	// Here we implement onClick listener, that starts an activty
 	// by using class static method
     @Override
     public void onClick(View view) {
